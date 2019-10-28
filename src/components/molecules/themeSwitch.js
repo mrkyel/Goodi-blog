@@ -15,7 +15,7 @@ const Container = styled.div`
             color: #212121;
         }
         &.fa-sun {
-            color: #3f0f3f;
+            color: skyblue;
         }
     }
 `;
@@ -30,7 +30,7 @@ const ThemeSwitch = ({ onChange, checked }) => {
                 height={30}
                 handleDiameter={24}
                 offColor={"#fff"}
-                offHandleColor={"#3f0f3f"}
+                offHandleColor={"skyblue"}
                 onColor={"#999999"}
                 onHandleColor={"#212121"}
                 checkedIcon={<i className="fas fa-moon" />}

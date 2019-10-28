@@ -1,18 +1,22 @@
 module.exports = {
     url: "http://demo.nagui.me",
-    title: "Nagui Starter",
+    title: "Goodi-Blog!",
     lang: "ko",
     description: "Gatsby Starter Nagui",
-    defaultKeywords: [`blog`, `gatsby`, `javascript`, `react`, `kimnagui`],
+    defaultKeywords: [`blog`, `gatsby`, `javascript`, `react`, `mrkyel`],
     defaultMetaImage: "/defaultmetaimage.png",
 
-    authorNickName: "KimNagui",
-    authorFullName: "KimGwangHyeon",
+    authorNickName: "mrkyel",
+    authorFullName: "mrkyel",
     authorDescription: "I Love CaffeLatte",
     photo: "content/assets/profile-pic.png",
 
     // icon : FontAwesome
     category: [
+        {
+            id: "구디 맛집",
+            icon: "fa-delicious"
+        },
         {
             id: "Coffee",
             icon: "fa-coffee"
@@ -25,7 +29,7 @@ module.exports = {
 
     social: {
         email: "calrosban@gmail.com",
-        github: "https://github.com/kimnagui"
+        github: "https://github.com/mrkyel/Goodi-blog"
     },
 
     postsPerPage: 5,

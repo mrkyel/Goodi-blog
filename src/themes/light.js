@@ -4,13 +4,13 @@ export default {
         defaultText: "#000",
         overlayBack: "#000",
         header: {
-            back: "#3f0f3f",
+            back: "skyblue",
             text: "#fff",
             button: "#fff"
         }
     },
     side: {
-        defaultBack: "#3f0f3f",
+        defaultBack: "skyblue",
         defaultText: "#fff",
         bio: {
             circle: "#49c39e",
@@ -36,7 +36,7 @@ export default {
     pagination: {
         defaultText: "#999",
         activeText: "#fff",
-        activeBack: "#3f0f3f"
+        activeBack: "black"
     },
     blogpost: {
         title: "#000",
