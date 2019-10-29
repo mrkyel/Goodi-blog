@@ -1,19 +1,4 @@
-var plugins = [{
-      plugin: require('D:/mrkyel/Goodi-blog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-143311992-2","head":true},
-    },{
-      plugin: require('D:/mrkyel/Goodi-blog/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('D:/mrkyel/Goodi-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('D:/mrkyel/Goodi-blog/node_modules/gatsby-plugin-typography/gatsby-ssr'),
-      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
-    },{
-      plugin: require('D:/mrkyel/Goodi-blog/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[]},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
