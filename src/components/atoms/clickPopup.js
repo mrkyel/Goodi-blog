@@ -21,4 +21,4 @@ class ClickPopup extends Component {
     }
 }
 
-export default onClickOutside(ClickPopup, clickOutsideConfig);
+export default onClickOutside(ClickPopup);
