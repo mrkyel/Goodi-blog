@@ -6,7 +6,6 @@ const Container = styled.div`
     visibility: ${props => (props.show ? "visiable" : "hidden")};
     position: absolute;
     z-index: 1;
-
     &:after {
         content: "";
         position: absolute;
