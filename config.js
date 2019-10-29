@@ -1,5 +1,5 @@
 module.exports = {
-    url: "http://demo.nagui.me",
+    url: "https://mrkyel.github.io/Goodi-blog/",
     title: "Goodi-Blog!",
     lang: "ko",
     description: "Gatsby Starter Nagui",
@@ -28,7 +28,7 @@ module.exports = {
     ],
 
     social: {
-        email: "calrosban@gmail.com",
+        email: "mrkyel100@gmail.com",
         github: "https://github.com/mrkyel/Goodi-blog"
     },
 

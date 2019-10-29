@@ -76,7 +76,7 @@ const SideHeader = () => {
                 const node = data.site.siteMetadata;
                 return (
                     <Container>
-                        <BlogTitle to={"/"}>{node.title}</BlogTitle>
+                        <BlogTitle to={"/Goodi-blog/"}>{node.title}</BlogTitle>
                         <BioContainer>
                             <Author
                                 onClick={() => setBioOpen(true)}
